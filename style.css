@@ -5,7 +5,7 @@ body {
 }
 .about {
     /* Gambar yang dipakai */
-    background-image: url("new-background.jpg");
+    background-image: url("img/new-background.jpg");
 
     /* Mengatur tinggi */
     min-height: 1500px;
@@ -18,9 +18,9 @@ body {
 }
 .education {
     /* Gambar yang dipakai */
-    background-image: url("education-1.jpg");
+    background-image: url("img/education-1.jpg");
     /* Mengatur tinggi */
-    min-height: 1000px;
+    min-height: 1370px;
 
     /* Membuat Parallax scrolling effect */
     background-attachment: fixed;
