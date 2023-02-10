@@ -17,9 +17,61 @@ body {
     background-size: cover;
     margin-top: -120px;
 }
+
 .education {
     /* Gambar yang dipakai */
     background-image: url("img/education-1.jpg");
+    /* Mengatur tinggi */
+    min-height: 1370px;
+
+    /* Membuat Parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.experience {
+    /* Gambar yang dipakai */
+    background-image: url("img/experience-1.jpg");
+    /* Mengatur tinggi */
+    min-height: 1370px;
+
+    /* Membuat Parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.skills {
+    /* Gambar yang dipakai */
+    background-image: url("img/skill-1.jpg");
+    /* Mengatur tinggi */
+    min-height: 1370px;
+
+    /* Membuat Parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.portofolio {
+    /* Gambar yang dipakai */
+    background-image: url("img/portofolio-1.jpg");
+    /* Mengatur tinggi */
+    min-height: 1370px;
+
+    /* Membuat Parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact {
+    /* Gambar yang dipakai */
+    background-image: url("img/skill-1.jpg");
     /* Mengatur tinggi */
     min-height: 1370px;
 
@@ -125,6 +177,26 @@ body {
 .profile-card-2:hover .profile-icons {
     right: 40px;
 }
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
 
 @media screen and (max-width: 600px){
     .nama {
