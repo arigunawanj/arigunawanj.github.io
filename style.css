@@ -3,9 +3,9 @@
 body {
     font-family: Montserrat;
 }
-.ari {
+.about {
     /* Gambar yang dipakai */
-    background-image: url("background.jpg");
+    background-image: url("new-background.jpg");
 
     /* Mengatur tinggi */
     min-height: 1500px;
@@ -15,4 +15,49 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.typewrite {
+    text-decoration: none;
+    color: rgb(47, 218, 121);
+}
+
+.icon-menu {
+    color: rgb(31, 26, 26);
+    font-size: 29px;
+    margin-left: -10px;
+}
+
+.icon-menu:hover {
+    color: rgb(148, 82, 209);
+    transition: 0.4s;
+}
+
+.nama {
+    font-weight: 700; 
+    color: white; 
+    font-size: 60px;
+}
+
+.nama:hover{
+    color: aquamarine;
+    text-shadow: 2px 4px #000000;
+}
+
+.aboutcontainer {
+    margin-top: 400px;
+}
+
+@media screen and (max-width: 600px){
+    .nama {
+        margin-left: 30px;
+    }
+
+    .typewrite {
+        margin-left: 16px;
+    }
+
+    .icon-menu {
+        margin-left: 12px;
+    }
 }

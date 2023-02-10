@@ -7,17 +7,19 @@
   <title>Portofolio - Ari Gunawan Jatmiko</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css' integrity='sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==' crossorigin='anonymous'/>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <div class="ari">
+
+  <div class="about">
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark shadow-5-strong">
       <!-- Container wrapper -->
       <div class="container-fluid">
         <!-- Navbar brand -->
-        <a class="navbar-brand" href="#">Portofolio</a>
+        <a class="navbar-brand ms-5" href="#">Portofolio</a>
 
         <!-- Toggle button -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,12 +29,24 @@
         <!-- Collapsible wrapper -->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <!-- Left links -->
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-5">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Home</a>
+              <a class="nav-link" aria-current="page" href="#">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="#">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Experince</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Portofolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
             </li>
             
           </ul>
@@ -46,16 +60,23 @@
 
 
     <!-- ABOUT -->
-    <div class="container-fluid">
-      <br>
-      <div class="card text-bg-secondary">
-        <div class="card-header">
-          Featured
-        </div>
-        <div class="card-body">
-          <h5 class="card-title">Special title treatment</h5>
-          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+    <div class="container">
+      <div class="row mt-5">
+        <div class="aboutcontainer">
+          <h1 class="nama">Ari Gunawan Jatmiko</h1>
+          <h3 class="typewrite">
+            <a href="" class="typewrite" data-period="2000" data-type='[ "I am Full Stack Developer.", "I Love to Develop." ]'>
+              <span class="wrap"></span>
+            </a>
+          </h3>
+          <div class="container mt-2">
+            <a href="https://twitter.com/arigunawanj" class="icon-menu"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.facebook.com/SchatzArii" class="icon-menu ms-3"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/arigunawanj/" class="icon-menu ms-3"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/arigunawanj/" class="icon-menu ms-3"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/arigunawanj" class="icon-menu ms-3"><i class="fa-brands fa-github"></i></a>
+            <a href="https://discordapp.com/users/604927482910474240" class="icon-menu ms-3"><i class="fa-brands fa-discord"></i></a>
+          </div>
         </div>
       </div>
     </div>
