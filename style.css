@@ -60,7 +60,7 @@ body {
     /* Gambar yang dipakai */
     background-image: url("img/portofolio-1.jpg");
     /* Mengatur tinggi */
-    min-height: 1370px;
+    min-height: 1390px;
 
     /* Membuat Parallax scrolling effect */
     background-attachment: fixed;
@@ -94,7 +94,7 @@ body {
 }
 
 .icon-menu:hover {
-    color: rgb(148, 82, 209);
+    color: rgb(255, 255, 255);
     transition: 0.4s;
 }
 
